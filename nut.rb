@@ -10,7 +10,7 @@ class NutTime
   end
 
   def day
-    (@time.to_date - last_vernal_equinox.to_date).to_i
+    "%03d" % (@time.to_date - last_vernal_equinox.to_date).to_i
   end
 
   def year
@@ -18,7 +18,7 @@ class NutTime
   end
 
   def to_s
-    "#{year} #{day} #{time}"
+    "#{year} #{day} #{time} NUT"
   end
 
   def inspect
