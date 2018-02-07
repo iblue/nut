@@ -6,7 +6,7 @@ A new time format for the world.
 
 We are using the following units:
 
-1 day: 86400 (that is 24*60*60) seconds.
+1 day: 86400 (that is 24 × 60 × 60) seconds.
 
 1 year: 365 days (or 366 days in a leap year)
 
